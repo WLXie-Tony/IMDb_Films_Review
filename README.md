@@ -2,11 +2,11 @@
 
 ## Overview
 This project consists of a set of scripts for scraping data from IMDb, including:
-- URLs for movies
-- Movie details such as ratings, directors, and box office performance
-- User reviews and ratings for each movie
+- Movie URLs
+- Movie details (ratings, directors, box office performance, etc.)
+- User reviews and ratings
 
-The project is designed to handle large datasets and save the scraped data in Excel or CSV formats for further analysis.
+The scripts efficiently handle large datasets and store the scraped data in Excel (.xlsx) or CSV (.csv) formats for further analysis.
 
 ---
 
