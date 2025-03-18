@@ -1,4 +1,4 @@
-# IMDb Movie Scraper
+# Movie_Review_Analysis
 
 ## Overview
 This project consists of a set of scripts for scraping data from IMDb, including:
