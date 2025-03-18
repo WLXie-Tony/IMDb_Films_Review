@@ -5,20 +5,36 @@ This repository contains scripts and datasets for scraping, analyzing, and proce
 
 ---
 
-## Features
-1. **Scrape IMDb URLs**  
-   Use `imdb_movie_urls_scraper.py` to fetch IMDb URLs for a list of movies from an input dataset.
-   
-2. **Scrape Movie Details**  
-   Use `imdb_movie_details_scraper.py` to extract details such as ratings, directors, box office performance, and more.
+## **Features**
+### **1. Web Scraping**
+- **IMDb Movie URLs Scraper** (`01_imdb_movie_urls_scraper.py`)  
+  Extracts IMDb URLs for a list of movies based on a predefined dataset.
 
-3. **Scrape User Reviews**  
-   Use `imdb_movie_reviews_scraper.py` to fetch user reviews, including review text, ratings, and metadata.
+- **Movie Details Scraper** (`02_imdb_movie_details_scraper.py`)  
+  Gathers movie metadata, including IMDb rating, director, box office performance, and other key attributes.
 
-4. **Session Management**  
-   `tracking_token_generator.js` dynamically generates session tokens required for making authenticated requests to IMDb.
+- **User Reviews Scraper** (`03_imdb_movie_reviews_scraper.py`)  
+  Scrapes user reviews along with ratings, timestamps, and review content.
+
+### **2. Dataset Organization**
+- `Dataset/Movie_Datas/` → Contains structured datasets of movie metadata.
+- `Dataset/Movie_Reviews/` → Stores user reviews collected from IMDb.
+- `Dataset/URLs/` → Saves extracted IMDb URLs.
+
+### **3. LLM-Based Review Analysis**
+- `LLM_Review_Analysis/` → Includes Jupyter notebooks and scripts for analyzing user reviews using large language models.
+
+### **4. Configuration and Token Generation**
+- `configprogram.json` → Stores parameters for running scripts.
+- `tracking_token_generator.js` → Generates session tokens required for IMDb data scraping.
 
 ---
+
+## **Usage**
+### **1. Install Dependencies**
+Ensure you have the necessary Python packages installed:
+```bash
+pip install -r requirements.txt
 
 ## Project Structure
 ```plaintext
