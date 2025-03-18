@@ -9,6 +9,7 @@ This repository contains scripts and datasets for scraping, analyzing, and proce
 ---
 
 ## **Project Structure**
+```plaintext
 ├── Dataset/                              # Contains structured IMDb movie data
 │   ├── Movie_Datas/                      # Processed datasets of movie metadata
 │   ├── Movie_Reviews/                    # Scraped user reviews from IMDb
