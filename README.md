@@ -62,3 +62,55 @@ Modify the `configprogram.json` file to set your parameters:
   "max_reviews_per_movie": 100
 }
 
+Data Description
+Movie Metadata
+The movie metadata includes:
+
+Title
+Release year
+IMDb rating
+Director(s) and cast
+Genre
+Runtime
+Box office figures
+Plot summary
+
+Review Data
+Each review includes:
+
+User rating (1-10)
+Review text
+Submission date
+Helpfulness votes
+User ID (anonymized)
+
+
+LLM Analysis Capabilities
+The LLM-based review analysis can perform:
+
+Sentiment analysis of reviews
+Thematic clustering
+Key aspects extraction (acting, plot, cinematography)
+Review summarization
+Trend analysis across time periods
+
+
+Limitations
+
+Data collection respects IMDb's robots.txt and usage policies
+Rate limits are implemented to avoid server overload
+This tool is intended for research purposes only
+
+
+License
+This project is licensed under the terms specified in the LICENSE file.
+
+Contributors
+
+WLXie-Tony
+
+
+Acknowledgements
+
+IMDb for providing a comprehensive movie database
+Open source libraries used in this project
