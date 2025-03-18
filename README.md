@@ -1,12 +1,7 @@
 # Movie_Review_Analysis
 
 ## Overview
-This project consists of a set of scripts for scraping data from IMDb, including:
-- Movie URLs
-- Movie details (ratings, directors, box office performance, etc.)
-- User reviews and ratings
-
-The scripts efficiently handle large datasets and store the scraped data in Excel (.xlsx) or CSV (.csv) formats for further analysis.
+This repository contains scripts and datasets for scraping, analyzing, and processing IMDb movie reviews. The project includes web scraping scripts, organized datasets, and large language model (LLM) analysis for processing user reviews.
 
 ---
 
