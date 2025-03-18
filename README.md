@@ -4,6 +4,8 @@
 This repository contains scripts and datasets for scraping, analyzing, and processing IMDb movie reviews. The project includes web scraping scripts, organized datasets, and large language model (LLM) analysis for processing user reviews.
 
 ---
+## **Project Structure**
+├── Dataset/ # Contains structured data for IMDb movies │ ├── Movie_Datas/ # Processed datasets of movie information │ ├── Movie_Reviews/ # Scraped user reviews from IMDb │ ├── URLs/ # Stored IMDb movie URLs and metadata ├── LLM_Review_Analysis/ # Large language model-based review analysis ├── Scraper_Code/ # Web scraping scripts for extracting IMDb data │ ├── 01_imdb_movie_urls_scraper.py # Scrapes IMDb URLs from movie names │ ├── 02_imdb_movie_details_scraper.py # Extracts detailed movie information │ ├── 03_imdb_movie_reviews_scraper.py # Scrapes user reviews from IMDb ├── .gitignore # Files and folders to be ignored by Git ├── LICENSE # License information ├── README.md # Project documentation ├── configprogram.json # Configuration file for processing ├── main.py # Main execution script ├── tracking_token_generator.js # Generates session tokens for web scraping
 
 ## **Features**
 ### **1. Web Scraping**
