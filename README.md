@@ -25,8 +25,7 @@ This repository contains scripts and datasets for scraping, analyzing, and proce
 ├── configprogram.json                    # Configuration file for processing
 ├── main.py                               # Main execution script
 ├── tracking_token_generator.js           # Generates session tokens for web scraping
-
-
+```
 ---
 
 ## **Features**
