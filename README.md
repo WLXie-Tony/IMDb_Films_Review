@@ -9,7 +9,21 @@ This repository contains scripts and datasets for scraping, analyzing, and proce
 ---
 
 ## **Project Structure**
-├── Dataset/ # Contains structured IMDb movie data │ ├── Movie_Datas/ # Processed datasets of movie metadata │ ├── Movie_Reviews/ # Scraped user reviews from IMDb │ ├── URLs/ # IMDb movie URLs and metadata ├── LLM_Review_Analysis/ # Large language model-based review analysis ├── Scraper_Code/ # Web scraping scripts for extracting IMDb data │ ├── 01_imdb_movie_urls_scraper.py # Scrapes IMDb URLs from movie names │ ├── 02_imdb_movie_details_scraper.py # Extracts detailed movie metadata │ ├── 03_imdb_movie_reviews_scraper.py # Scrapes user reviews from IMDb ├── .gitignore # Files and folders ignored by Git ├── LICENSE # License information ├── README.md # Project documentation ├── configprogram.json # Configuration file for processing ├── main.py # Main execution script ├── tracking_token_generator.js # Generates session tokens for web scraping
+├── Dataset/                              # Contains structured IMDb movie data
+│   ├── Movie_Datas/                      # Processed datasets of movie metadata
+│   ├── Movie_Reviews/                    # Scraped user reviews from IMDb
+│   ├── URLs/                             # IMDb movie URLs and metadata
+├── LLM_Review_Analysis/                  # Large language model-based review analysis
+├── Scraper_Code/                         # Web scraping scripts for extracting IMDb data
+│   ├── 01_imdb_movie_urls_scraper.py     # Scrapes IMDb URLs from movie names
+│   ├── 02_imdb_movie_details_scraper.py  # Extracts detailed movie metadata
+│   ├── 03_imdb_movie_reviews_scraper.py  # Scrapes user reviews from IMDb
+├── .gitignore                            # Files and folders ignored by Git
+├── LICENSE                               # License information
+├── README.md                             # Project documentation
+├── configprogram.json                    # Configuration file for processing
+├── main.py                               # Main execution script
+├── tracking_token_generator.js           # Generates session tokens for web scraping
 
 
 ---
